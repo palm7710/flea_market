@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+ul{
+  padding-left:0;
+}
+
+li{
+  list-style:none;
+}
+
+
+main {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+.img-top video {
+  width: 100%;
+}
+.search-form {
+  background-color: #f5f5f5;
+  text-align:center;
+
+}
+
+.search-text {
+  width: 300px;
+  height: 50px; 
+}
+.blog {
+  text-align:center;
+  padding:5px 0;
+  background-color: #f5f5f5;
+}
+.blog h3 {
+  text-align:center;
+  padding:5px 0;
+}
+
+.side {
+  text-align:center;
+  padding:5px 0;
+  background-color: #f5f5f5;
+  
+}
+.side h3 {
+  text-align:center;
+  padding:5px 0;
+}
+
+.blue-back {
+  width: 700px;
+  text-align:center;
+  padding:5px 0;
+  background-color: rgba(130, 188, 251, 0.661);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.gray-back{
+  width: 700px;
+  padding:5px 0;
+  background-color:#d3d3d3;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.gray-back h6, img {
+  padding:5px 0;
+  margin:auto;
+}
+
+.list-blog{
+  flex-wrap: wrap;
+}
+.list-blog article{
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #333;
+}
+
+.list-blog h4{
+  padding:5px 0;
+  margin:auto;
+  color:#808080;
+}
+article {
+  display:flex;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  display: grid;
+}
+
+.profile {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.profile table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.back-profile {
+  width: 700px;
+  text-align:center;
+  padding:5px 0;
+  background-color: #f5f5f5;
+}
+.suihei {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 130px;
+  height: 130px;
+}
+.nav-on{
+  position: relative;
+  z-index: 999;
+}
+.nav-on nav{
+  position: absolute;
+  top:0;
+  z-index: 999;
+}
+
+.DivLink{
+  position:relative;
+  background-color: rgba(130, 188, 251, 0.661);
+  width: 90%;
+  height: 90%;
+  border: 2px dashed #c683f3;
+}
+.page-h5 h5 {
+  font-weight: bold;
+}
+
+.DivLink .ALink {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+footer .footer-nav a{
+  color:#808080;
+}
+
+  #catesea {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #catesea a{
+  width: calc(25% - 22px);
+  padding:5px 0;
+  margin:auto;
+  color: #666;
+  }
+
+  #catesea img {
+    border-radius: 50%;  /* 角丸半径を50%にする=円形 */
+    width:  50%;
+    height: 100px;
+  }
+
+  .txt-hide{
+    display: none;
+  } 
+
+  button.more {
+    width: 120px;
+    margin: 20px auto;
+    display: block;
+    background-color: #666;
+    color: #fff;
+    padding:10px 15px;
+    border: none;
+    outline: 0;
+    transition: .5s;
+    -erbkit-transition: .5s;
+    }
+     
+    button.more::after {
+    content: "もっと見る";
+    transition: .2s;
+    -erbkit-transition: .2s;
+    }
+    
+    button.more.on-click::after{
+    content: "閉じる";
+    }
+
+  .fot-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fot-box img {
+    opacity: 0.7;
+  }
+  .fot-txt{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin:0 auto;
+  }
+    
